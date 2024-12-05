@@ -51,7 +51,7 @@ public class Main {
             System.out.println(" Нельзя кататься на атракционе");
         }
 
-        boolean yesBut = child > 5 && child < 14;
+        boolean yesBut = child >= 5 && child < 14;
         if (yesBut) {
             System.out.println("Можно кататься на атракционе в сопровождении взрослого.");
         }
