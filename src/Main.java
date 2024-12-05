@@ -30,7 +30,7 @@ public class Main {
             System.out.println(" Если возраст человеека равен " + peopleEge + " , то ему нужно ходить в детский сад ");
         }
 
-        boolean skcool = peopleEge > 7 && peopleEge < 18;
+        boolean skcool = peopleEge >= 7 && peopleEge < 18;
         if (skcool) {
             System.out.println(" Если возраст человека равен " + peopleEge + " ,то ему нужно идти в школу");
         }
