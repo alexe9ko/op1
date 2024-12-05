@@ -30,7 +30,7 @@ public class Main {
             System.out.println(" Если возраст человеека равен " + peopleEge + " , то ему нужно ходить в детский сад ");
         }
 
-        boolean skcool = peopleEge > 7 && peopleEge < 18;
+        boolean skcool = peopleEge >= 7 && peopleEge < 18;
         if (skcool) {
             System.out.println(" Если возраст человека равен " + peopleEge + " ,то ему нужно идти в школу");
         }
@@ -51,9 +51,9 @@ public class Main {
             System.out.println(" Нельзя кататься на атракционе");
         }
 
-        boolean yesBut = child > 5 && child < 14;
+        boolean yesBut = child >= 5 && child < 14;
         if (yesBut) {
-            System.out.println("Можно кататься на атракционе в сопровождении взрослого");
+            System.out.println("Можно кататься на атракционе в сопровождении взрослого.");
         }
 
         boolean yes = child >= 14;
